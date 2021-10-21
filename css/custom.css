@@ -1,0 +1,17 @@
+.container-call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.container-call-to-action .item-call-to-action {
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .container-call-to-action {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
